@@ -20,7 +20,21 @@ Now it's time to get started on whatever repo you've been tasked with. You'll go
 
 This should have created a new folder with all the files from this repo, including this README.
 
+In order to make changes to the repository through your local machine, you'll need the right credentials:
 
+Type the command:
+
+'sudo snap install gh' (This installs the github CLI tool, which is different from git'
+
+Then you'll type 'gh auth login'
+
+We will help you through these steps, you'll choose github.com for the first option and https for the second.
+
+Then copy and paste the provided access token when it asks for a password (you can paste on the command line by right clicking)
+
+follow the steps provided by github to initialize your repository in your folder
+
+The password you'll use after using the 'git push' command is the access key
 
 
 
